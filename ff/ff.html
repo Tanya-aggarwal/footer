@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=0.1">
+	<title>responsive footer</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Mitr' rel='stylesheet'>
+<p id="cc">Check out our <a href="#">Engineering Website!</a></p>
+
+<div class="info" style="margin-bottom: 0px;">
+    <div class="follow">
+        <p id="followus"> FOLLOW US </p>
+				<ul>
+				<li><a href="https://www.facebook.com/">
+					<i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://twitter.com/">
+					<i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://www.instagram.com/">
+					<i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://in.pinterest.com/">
+					<i class="fa fa-pinterest"></i></a></li>
+                </ul>
+    </div>
+    <div class="formm">
+        <div class="form1">
+        <p id="get">Get Connected !</p></div>
+        <div class="form2">
+        <form>
+            <label for="mail1"></label>
+
+            <input type="text" name="mail" id="mail1" placeholder ="Email Address">
+            
+            <input type="submit" value="GO" align="rel"><br>
+       
+
+        </form>
+        <p id="mail2">Experience the journey with us......</p>
+        </div>
+    </div>
+    <div class="blog">
+        <p id="blog1"> FROM THE BLOG</p><br>
+        <p id="blog2"> Medium Blogs</p>
+    </div>
+</div>
+
+
+
+
+<div class="lower" style="margin-top: 0px">
+    <div class="links1">
+        <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Cookbook</a></li>
+        <li><a href="#">Our Vision</a></li>
+        <li><a href="#">Affiliates</a></li>
+        <li><a href="#">Supply Chains Act</a></li>
+</ul>
+    </div>
+    <div class="links2">       
+    <ul>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Investor Relations</a></li>
+    </ul>
+    </div>
+    <div class="support">
+        <p id="support1"> Customer Support:</p><br>
+        <p id="support2"> Help Center & FAQ</p>
+        <p id="support3"> DOT.support@gmail.com<br> +91 9168625004<br>+1 (510)9881171</p>
+    </div>
+
+    <div class="download">
+     <p id="download1">
+         Do Not "Sell" My Info<br>
+         Privacy<br>
+         Terms<br>
+     </p>
+     <ul>
+        <div class="img1"><li><a href="#"><img src="google-play-badge.png" width=150px height="90px"></a></li></div>
+        <div class="img2"><li><a href="#"><img src="512x512.png" width=140px height="185px"></a></li></div>
+     </ul>
+</div>
+</div>
+
+
+<style>
+
+body{
+     font-family:'Mitr';font-size: 18px;
+margin-bottom: 0;
+margin-top: 0;
+margin-right: 0;
+margin-left: 0;
+}
+
+
+
+    #cc{
+text-align: center;
+ background-color:  #f0f0f5;
+margin-bottom: 0;
+height: 100px;
+color: #a6a6a6;
+    }
+
+    .info {
+	display: grid;
+	grid-template-rows: auto 50px;
+    grid-template-columns: 1fr 1fr 1fr;	
+    background-color:  #f0f0f5;
+    margin: 0px;
+height: 550px;
+margin-top: 0px;
+
+
+}
+
+
+
+.info .follow{
+    text-align: center;}
+.info follow ul{
+position: absolute;
+top: 100%;
+left: 50%;
+padding: 0;
+margin: 0;
+display: flex;
+}
+
+.follow ul li{
+list-style: none;
+margin: 15px;
+display: inline;
+} 
+.follow ul li .fa{
+font-size: 30px;
+line-height: 60px;
+transition: 6s;
+color:#a6a6a6;
+}
+.info .formm{
+    text-align: center;
+}
+.info .blog{
+    text-align: center;
+}
+
+#get,#blog2,#mail2{
+    color:#fd9a24 ;
+}
+
+
+.lower{
+    display: grid;
+    
+    grid-template-columns: 1fr 1.25fr 3fr 1fr ; 
+    justify-content;
+    margin: 0px;
+    background-color: #fd9a24;
+    opacity: 0.77;
+    
+    
+}
+
+.links1 ul li  {
+list-style: none;
+margin: 15px;
+text-decoration: none;
+color: #ccd9ff;
+
+}
+.links1 ul li a:link{
+    color: white;
+; 
+    text-decoration: none;
+}
+
+.links1 ul li a:hover{
+    color: grey;
+}
+.links1 ul li a:active{
+    color:#ffffff; 
+}
+.links2 ul li {
+list-style: none;
+margin: 15px;
+text-decoration: none;
+color: #ffffff;
+}
+
+.links2 ul li a:link{
+    color:white; 
+    text-decoration: none;
+}
+
+.links2 ul li a:hover{
+    color: grey;
+}
+.links2 ul li a:active{
+    color:#ffffff; 
+}
+#support1,#support3,#download1{
+color: #ffffff;
+
+}
+
+.download ul li {
+list-style: none;
+margin: 15px;
+
+}
+#followus,#blog1{
+    color: #595959;
+}
+#support2,#download1{
+    color: #ccd9ff;
+}
+
+#support3{
+    color:white; 
+}
+#download1{
+    text-align: left;
+}
+
+input[type=text], select {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 30%;
+  background-color:#fd9a24 ;
+  color: white;
+  padding: 12px 20px;
+  margin: 0px 10px 0 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+   justify-content:flex-end;
+   vertical-align: right;
+
+}
+.img1{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.img2{
+  padding-top: 0;
+  margin-top: -60px;
+
+}
+
+#cc a:link{
+color: #fd9a24;
+
+}
+
+</style>
+
